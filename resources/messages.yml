@@ -1,20 +1,33 @@
+---
 NoXP: §cDu hast nicht genug Level für diesen Buff
 QuitShop: §cDu hast den Buff Shop verlassen
-
-#FormMessages
 Description: Kaufe dir mit 25 Erfahrungsleveln einen Buff für 10 Minuten!
-Button1: '§l§7[§0Schnelligkeit§7]\n§r§0Level: §b2 §0- Dauer: §b10 Min'
-Button2: '§l§7[§0Eile§7]\n§r§0Level: §b2 §0- Dauer: §b10 Min'
-Button3: '§l§7[§0Stärke§7]\n§r§0Level: §b2 §0- Dauer: §b10 Min'
-Button4: '§l§7[§0Resistenz§7]\n§r§0Level: §b2 §0- Dauer: §b10 Min'
-Button5: '§l§7[§0Regeneration§7]\n§r§0Level: §b2 §0- Dauer: §b10 Min'
-Button6: '§l§7[§0Sättigung§7]\n§r§0Level: §b2 §0- Dauer: §b10 Min'
-Button7: '§l§7[§0Nachtsicht§7]\n§r§0Level: §b2 §0- Dauer: §b10 Min'
-Button8: '§l§7[§0Sprung§7]\n§r§0Level: §b2 §0- Dauer: §b10 Min'
+Button1: |-
+  §l§7[§0Schnelligkeit§7]
+  §r§0Level: §b2 §0- Dauer: §b10 Min
+Button2: |-
+  §l§7[§0Eile§7]
+  §r§0Level: §b2 §0- Dauer: §b10 Min
+Button3: |-
+  §l§7[§0Stärke§7]
+  §r§0Level: §b2 §0- Dauer: §b10 Min
+Button4: |-
+  §l§7[§0Resistenz§7]
+  §r§0Level: §b2 §0- Dauer: §b10 Min
+Button5: |-
+  §l§7[§0Regeneration§7]
+  §r§0Level: §b2 §0- Dauer: §b10 Min
+Button6: |-
+  §l§7[§0Sättigung§7]
+  §r§0Level: §b2 §0- Dauer: §b10 Min
+Button7: |-
+  §l§7[§0Nachtsicht§7]
+  §r§0Level: §b2 §0- Dauer: §b10 Min
+Button8: |-
+  §l§7[§0Sprung§7]
+  §r§0Level: §b2 §0- Dauer: §b10 Min
 ExitButton: §l§cVerlassen
 BuyButton: §aKaufen
-
-#BuyMessages
 BuyBuffOne: §aDu hast dir Erfolgreich den Buff §fSchnelligkeit §afür 25 Level gekauft!
 BuyBuffTwo: §aDu hast dir Erfolgreich den Buff §fEile §afür 25 Level gekauft!
 BuyBuffThree: §aDu hast dir Erfolgreich den Buff §fStärke §afür 25 Level gekauft!
@@ -23,3 +36,4 @@ BuyBuffFive: §aDu hast dir Erfolgreich den Buff §fRegeneration §afür 25 Leve
 BuyBuffSix: §aDu hast dir Erfolgreich den Buff §fSättigung §afür 25 Level gekauft!
 BuyBuffSeven: §aDu hast dir Erfolgreich den Buff §fNachtsicht §afür 25 Level gekauft!
 BuyBuffEight: §aDu hast dir Erfolgreich den Buff §fSprung §afür 25 Level gekauft!
+...

@@ -12,15 +12,19 @@ use pocketmine\entity\EffectInstance;
 use pocketmine\event\PlayerJoinEvent;
 use pocketmine\event\PlayerQuitEvent;
 use pocketmine\event\PlayerChatEvent;
+use pocketmine\level\Level;
+use pocketmine\level\sound\AnvilUseSound;
 use pocketmine\network\mcpe\protocol\ModalFormRequestPacket;
 use pocketmine\network\mcpe\protocol\ModalFormResponsePacket;
 use pocketmine\network\mcpe\protocol\RemoveObjectivePacket;
 use pocketmine\network\mcpe\protocol\SetDisplayObjetivePacket;
 use pocketmine\network\mcpe\protocol\SetScorePacket;
 use pocketmine\command\CommandSender;
+use pocketmine\command\ConsoleCommandSender;
 use pocketmine\command\Command;
 use pocketmine\utils\Config;
 use pocketmine\utils\TextFormat as text;
+use jojoe77777\FormAPI\SimpleForm;
 
 class Main extends PluginBase implements Listener{
 
@@ -71,8 +75,8 @@ class Main extends PluginBase implements Listener{
                 if($sender instanceof Player){
                     $this->BuffMenu($sender);
             }
-            return true;
         }
+    return true;
     }
 
     public function BuffMenu(Player $player){
@@ -395,4 +399,6 @@ class Main extends PluginBase implements Listener{
     public function onDisable(){
         $this->getLogger()->info(self::PREFIX . " wurde deaktiviert!");
     }
-}
+}//End of Script
+
+//Eben Testen...
