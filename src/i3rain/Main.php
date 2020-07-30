@@ -80,8 +80,7 @@ class Main extends PluginBase implements Listener{
     }
 
     public function BuffMenu(Player $player){
-        $api = $this->getServer()->getPluginManager()->getPlugin("FormAPI");
-        $form = $api->createSimpleForm(function (Player $player, int $data = null){
+        $form = new SimpleForm(function (Player $player, int $data = null){
             $result = $data;
             if ($result === null){
                 return true;
@@ -181,8 +180,7 @@ class Main extends PluginBase implements Listener{
     }
 
     public function BuffOne(Player $player){
-        $api = $this->getServer()->getPluginManager()->getPlugin("FormAPI");
-        $form = $api->createSimpleForm(function (Player $player, int $data = null){
+        $form = new SimpleForm(function (Player $player, int $data = null){
             $result = $data;
             if ($result === null){
                 return true;
@@ -208,8 +206,7 @@ class Main extends PluginBase implements Listener{
     }
 
     public function BuffTwo(Player $player){
-        $api = $this->getServer()->getPluginManager()->getPlugin("FormAPI");
-        $form = $api->createSimpleForm(function (Player $player, int $data = null){
+        $form = new SimpleForm(function (Player $player, int $data = null){
             $result = $data;
             if ($result === null){
                 return true;
@@ -235,8 +232,7 @@ class Main extends PluginBase implements Listener{
     }
 
     public function BuffThree(Player $player){
-        $api = $this->getServer()->getPluginManager()->getPlugin("FormAPI");
-        $form = $api->createSimpleForm(function (Player $player, int $data = null){
+        $form = new SimpleForm(function (Player $player, int $data = null){
             $result = $data;
             if ($result === null){
                 return true;
@@ -262,8 +258,7 @@ class Main extends PluginBase implements Listener{
     }
 
     public function BuffFour(Player $player){
-        $api = $this->getServer()->getPluginManager()->getPlugin("FormAPI");
-        $form = $api->createSimpleForm(function (Player $player, int $data = null){
+        $form = new SimpleForm(function (Player $player, int $data = null){
             $result = $data;
             if ($result === null){
                 return true;
@@ -289,8 +284,7 @@ class Main extends PluginBase implements Listener{
     }
 
     public function BuffFive(Player $player){
-        $api = $this->getServer()->getPluginManager()->getPlugin("FormAPI");
-        $form = $api->createSimpleForm(function (Player $player, int $data = null){
+        $form = new SimpleForm(function (Player $player, int $data = null){
             $result = $data;
             if ($result === null){
                 return true;
@@ -316,8 +310,7 @@ class Main extends PluginBase implements Listener{
     }
 
     public function BuffSix(Player $player){
-        $api = $this->getServer()->getPluginManager()->getPlugin("FormAPI");
-        $form = $api->createSimpleForm(function (Player $player, int $data = null){
+        $form = new SimpleForm(function (Player $player, int $data = null){
             $result = $data;
             if ($result === null){
                 return true;
@@ -343,8 +336,7 @@ class Main extends PluginBase implements Listener{
     }
 
     public function BuffSeven(Player $player){
-        $api = $this->getServer()->getPluginManager()->getPlugin("FormAPI");
-        $form = $api->createSimpleForm(function (Player $player, int $data = null){
+        $form = new SimpleForm(function (Player $player, int $data = null){
             $result = $data;
             if ($result === null){
                 return true;
@@ -370,8 +362,7 @@ class Main extends PluginBase implements Listener{
     }
 
     public function BuffEight(Player $player){
-        $api = $this->getServer()->getPluginManager()->getPlugin("FormAPI");
-        $form = $api->createSimpleForm(function (Player $player, int $data = null){
+        $form = new SimpleForm(function (Player $player, int $data = null){
             $result = $data;
             if ($result === null){
                 return true;
