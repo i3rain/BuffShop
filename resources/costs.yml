@@ -1,0 +1,9 @@
+#Select how much cost a Buff
+BuffOneXPCost: 25
+BuffTwoXPCost: 25
+BuffThreeXPCost: 25
+BuffFourXPCost: 25
+BuffFiveXPCost: 25
+BuffSixXPCost: 25
+BuffSevenXPCost: 25
+BuffEightXPCost: 25

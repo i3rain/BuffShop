@@ -1,0 +1,22 @@
+How to change a Buff:
+  Search your optional ID of an Effect and write it in BuffOne
+  Select the Level for the Effect in BuffLevelOne
+  Set how long is a Buff activate in BuffTimeOne
+Example:
+  BuffOne: 1 (Speed)
+  BuffLevelOne: 2 (Speed Level 2)
+  BuffTimeOne: 600 (For 10 minutes)
+
+Deactivate Buttons and Buffs:
+  To deactivate a Buff and the Buttons delete a Categorie in effects.yml
+  Example delete BuffOne, BuffLevelOne and BuffTimeOne
+
+Time Example:
+  Change BuffTime for the Buff you want in effects.yml
+  600 = 10 minutes, 60 = 1 minute, 1 = 1 second
+
+Change the XP costs of an Buff:
+  Go to costs.yml and change the value for the Buff you want
+
+Change Messages and Text in the UI:
+  Go to messages.yml and change what u need and customize it

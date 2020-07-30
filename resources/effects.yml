@@ -1,0 +1,43 @@
+#To deactivate a Buff and the Buttons delete a Categorie...
+#Example delete BuffOne, BuffLevelOne and BuffTimeOne
+#Time example 600 = 10 minutes, 60 = 1 minute
+
+#Options Buff Number 1
+BuffOne: 1
+BuffLevelOne: 2
+BuffTimeOne: 600
+
+#Options Buff Number 2
+BuffTwo: 3
+BuffLevelTwo: 2
+BuffTimeTwo: 600
+
+#Options Buff Number 3
+BuffThree: 5
+BuffLevelThree: 2
+BuffTimeThree: 600
+
+#Options Buff Number 4
+BuffFour: 11
+BuffLevelFour: 2
+BuffTimeFour: 600
+
+#Options Buff Number 5
+BuffFive: 10
+BuffLevelFive: 2
+BuffTimeFive: 600
+
+#Options Buff Number 6
+BuffSix: 23
+BuffLevelSix: 2
+BuffTimeSix: 600
+
+#Options Buff Number 7
+BuffSeven: 16
+BuffLevelSeven: 2
+BuffTimeSeven: 600
+
+#Options Buff Number 8
+BuffEight: 8
+BuffLevelEight: 2
+BuffTimeEight: 600
