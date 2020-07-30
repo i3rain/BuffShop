@@ -395,6 +395,4 @@ class Main extends PluginBase implements Listener{
     public function onDisable(){
         $this->getLogger()->info(self::PREFIX . " wurde deaktiviert!");
     }
-}//End of Script
-
-//Eben Testen...
+}
